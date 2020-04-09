@@ -1,0 +1,48 @@
+body {
+    background-color: blanchedalmond
+}
+
+h1{
+    text-align: center;
+    font-size: 5vw;
+    font-family: cursive
+}
+
+h2{
+    text-align: center;
+    font-size: 3vw;
+    font-family: cursive;
+}
+
+.centeringWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#next {
+   align-content: center;
+}
+
+.teachers {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+.person{
+    background-color: silver;
+    text-align:center;
+    border: outset;
+    width: 10vw;
+    box-shadow: 10px 10px 20px
+}
+
+h3{
+    margin:0;
+    text-align: center;
+}
+
+h4{
+    margin:0;
+    text-align: center;
+}
